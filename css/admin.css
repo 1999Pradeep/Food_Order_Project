@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.wrapper {
+  padding: 1%;
+  width: 80%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+table {
+  width: 100%;
+}
+
+table tr th {
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+
+table tr td {
+  padding: 1%;
+}
+
+.btn {
+  background-color: rgb(34, 94, 206);
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 200;
+}
+
+.btn:hover {
+  background-color: rgb(13, 48, 114);
+}
+
+.btn-update {
+  background-color: rgb(35, 146, 63);
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 200;
+}
+
+.btn-update:hover {
+  background-color: rgb(12, 97, 48);
+}
+
+.btn-delete {
+  background-color: rgb(214, 61, 55);
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 200;
+}
+
+.btn-delete:hover {
+  background-color: rgb(190, 21, 21);
+}
+
+.success{
+  color: rgb(17, 153, 74);
+}
+
+.error{
+  color: rgb(172, 27, 27);
+}
+
+/* Menu Secton */
+.menu {
+  border-bottom: 1px solid #0c0e0e;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 1%;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #0c0e0e;
+}
+
+.menu ul li a:hover {
+  color: yellowgreen;
+}
+
+/* Main Content */
+
+.main-content {
+  background-color: lightgray;
+  padding: 3% 0;
+}
+
+.col-4 {
+  width: 19%;
+  background-color: white;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+
+/*  Footer Section */
+
+.footer {
+  background-color: yellowgreen;
+}
+
+/* Login */
+ .login{
+  background-color: yellowgreen;
+  border: 2px solid #0c0e0e; 
+  border-radius: 8px;
+  width: 20%;
+  height: 45%; 
+  margin: 10% auto;
+  padding: 5%;
+}
+
+ .login-input{
+  margin-top: 10px;
+  padding: 6px;
+  border-radius: 8px;
+  border-color: #0c0e0e;
+  width: 80%;
+  outline: none;
+} 
+
+.login-btn{
+  width: 50%;
+   font-weight: 500;
+  background-color: yellowgreen;
+  color: #0c0e0e;
+}
+
+.login-btn:hover{
+  background-color: #0c0e0e;
+  color: white;
+}
+
